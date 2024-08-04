@@ -1,0 +1,89 @@
+@media (min-width: 1680px) {
+  .row-double {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header-container {
+    max-height: 100px;
+  }
+  .header-social {
+    font-size: 1.3rem;
+  }
+  .header-menu {
+    font-size: 0.9rem;
+  }
+  .row-double {
+    gap: 0 3vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .row-double {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .header-container .header-left {
+    order: 1;
+    margin-bottom: 10px;
+  }
+  .header-container .header-center {
+    order: 3;
+  }
+  .header-container .open-sidebar-button {
+    order: 2;
+  }
+
+  .header-container {
+    max-height: none;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .header-container a {
+    /*     box-sizing: border-box;
+    height: auto;
+    width: 100%; */
+    padding: 5vw 4vw;
+  }
+  .header-menu {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /*     background-image: url("/hypnosis/artwork_hypnosis_comp.jpg"); */
+    background-color: #340a38;
+    opacity: 0.9;
+    z-index: 10;
+    width: 75%;
+    height: 100vh;
+    box-shadow: -5px 0 5px rgb(0, 0, 0, 0.25);
+    transition: 0.5s ease-out;
+  }
+
+  .open-sidebar-button,
+  .close-sidebar-button {
+    display: block;
+    padding: 5vw 4vw;
+  }
+  .close-sidebar-button {
+    margin-bottom: 20vw;
+  }
+  #sidebar-active:checked ~ .header-menu {
+    right: 0;
+  }
+  #sidebar-active:checked ~ #overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+}

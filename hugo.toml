@@ -1,0 +1,26 @@
+#baseURL = 'https://luca-mancini.gitlab.io/site-lucamancini/'
+baseURL = 'https://www.example.com'
+languageCode = 'en-us'
+title = 'Luca Mancini'
+
+[params]
+    author = 'Luca Mancini'
+
+[menus]
+    [[menus.main]]
+        name = 'Home '
+        pre = ''
+        url = 'https://www.lucamancini.com/'
+        weight = 1   
+    [[menus.main]]
+        name = 'Hire me! '
+        url = 'https://www.lucamancini.com/hire-me/'
+        weight = 2   
+    [[menus.main]]
+        name = 'Projects '
+        url = 'https://www.lucamancini.com/projects/'
+        weight = 3   
+    [[menus.main]]
+        name = 'Contacts'
+        url = 'https://www.lucamancini.com/contacts/'
+        weight = 4    

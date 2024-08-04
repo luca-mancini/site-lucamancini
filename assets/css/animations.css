@@ -1,0 +1,25 @@
+@keyframes animGrad {
+  0% {
+    background-position: 99% 0%;
+  }
+  50% {
+    background-position: 2% 100%;
+  }
+  100% {
+    background-position: 99% 00%;
+  }
+}
+
+/* Media query to check if user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #tsparticles {
+    display: none;
+  }
+  * {
+    animation: none !important; /* Disable animation */
+    transition: none !important; /* Disable transitions */
+  }
+  body {
+    background: #340a38;
+  }
+}

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*   background-color: #340a38; */
+  color: #ffffff;
+  font-family: Roboto Mono;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, #000000, #09203f, #340a38); */
+  background: #340a38;
+  background-size: 600% 600%;
+  animation: animGrad 10s ease infinite;
+}
+
+header {
+  margin: 1.5vh 0;
+  /*   background-color: aqua; */
+}
+
+.header-container {
+  /*   background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sidebar-active {
+  display: none;
+}
+
+.open-sidebar-button,
+.close-sidebar-button {
+  display: none;
+}
+
+.header-logo {
+  max-height: 125px;
+  padding-top: 3vh;
+}
+
+.header-social {
+  margin: 0 1vh;
+  color: white;
+  font-size: 2rem;
+  /*   font-size: 7vmin; */
+}
+
+.header-social:hover {
+  color: #d3d3d3;
+}
+
+.header-menu {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0;
+}
+
+.row-single {
+  margin: auto;
+  width: 85%;
+  max-width: 1080px;
+}
+
+.row-double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  max-width: 95%;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 5vh 0 8vh;
+}
+
+
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: clamp(2rem, 6vw, 3rem); /* Minimum 32px, scaling with viewport, maximum 48px */
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: clamp(1.75rem, 5vw, 2.5rem); /* Minimum 28px, scaling with viewport, maximum 40px */
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-size: clamp(1.5rem, 4vw, 2rem); /* Minimum 24px, scaling with viewport, maximum 32px */
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-size: clamp(1.25rem, 3vw, 1.5rem); /* Minimum 20px, scaling with viewport, maximum 24px */
+}
+
+h5 {
+  font-size: clamp(1rem, 2vw, 1.25rem); /* Minimum 16px, scaling with viewport, maximum 20px */
+}
+
+h6 {
+  font-size: clamp(0.875rem, 1.5vw, 1rem); /* Minimum 14px, scaling with viewport, maximum 16px */
+}
+
+p {
+  font-family: "Gideon Roman", display;
+  font-size: clamp(1rem, 1.5vw, 1.125rem); 
+
+}
+
+a {
+  text-decoration: none;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+}

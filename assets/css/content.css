@@ -1,0 +1,31 @@
+.picture {
+  width: 1080px;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+.artwork-big {
+  max-height: 500px;
+  max-width: 95%;
+  margin: auto;
+  display: block;
+}
+
+#home-picture {
+  filter: drop-shadow(2px 2px 8px white);
+  border-radius: 3px;
+  opacity: 0.85;
+}
+#hypnosis {
+  /* box-shadow: 7px 7px 7px #666666; */
+  filter: drop-shadow(7px 7px 7px black);
+}
+
+.plyr {
+  max-width: 90% !important;
+  margin: 1.5vh auto;
+  --plyr-color-main: white;
+  --plyr-audio-controls-background: transparent;
+  --plyr-audio-control-color: white;
+  --plyr-audio-control-color-hover: #340a38;
+}
