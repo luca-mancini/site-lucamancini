@@ -24,11 +24,20 @@
 
 body {
   min-height: 100vh;
+  min-height: 100svh;
   /* background: linear-gradient(45deg, #000000, #09203f, #340a38); */
   background: var(--background-color);
   background-size: 600% 600%;
   animation: animGrad 10s ease infinite;
 }
+
+/* main {
+  display: flex;
+  justify-content: center;
+}
+content {
+  max-width: 80%;
+} */
 
 h1 {
   font-size: var(--h1); /* Minimum 32px, scaling with viewport, maximum 48px */

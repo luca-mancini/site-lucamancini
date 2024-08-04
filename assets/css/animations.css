@@ -10,6 +10,33 @@
   }
 }
 
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--text-color);
+  }
+}
+
+@keyframes appear {
+  to {
+    visibility: visible;
+  }
+}
+
 /* Media query to check if user prefers reduced motion */
 @media (prefers-reduced-motion: reduce) {
   #tsparticles {
@@ -20,6 +47,6 @@
     transition: none !important; /* Disable transitions */
   }
   body {
-    background: #340a38;
+    background: var(--background-color);
   }
 }

@@ -6,15 +6,32 @@ images = ['home_picture.jpg']
 keywords = ['']
 +++
 
-Hi! I'm Luca, a drummer from Italy, currently based in Prague, Czech Republic!
 
+{{< content class="home-content" >}}
+
+{{< row class="home-row">}}
+{{< paragraph class="home-text-up">}}
+Hello stranger, my name is Luca, I'm a drummer and IT professional.
+{{< /paragraph >}}
+{{< /row >}}
+
+{{< row class="home-row">}}
+{{< paragraph class="home-text-mid">}}
+I'm from Italy, but currently based in Prague, Czech Republic!
+{{< /paragraph >}}
+{{< /row >}}
 
 {{< image
-    id="home-picture"
-    src="home_picture.jpg"
-    alt="A black and white picture of me, playing drums in a live show"
-    class="picture"
+id=""
+src="image_home.jpg"
+alt="A black and white picture of me, playing drums in a live show"
+class="home-image"
 >}}
 
-
+{{< row class="home-row">}}
+{{< paragraph class="home-text-down">}}
 Welcome to my website! Please, feel free to check out my work! 🙃
+{{< /paragraph >}}
+{{< /row >}}
+
+{{< /content >}}
