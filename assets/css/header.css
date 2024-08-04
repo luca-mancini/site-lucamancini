@@ -1,3 +1,16 @@
+header {
+  /*   margin: 1.5vh 0; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  background-color: var(--background-color2);
+}
+
+.header-logo {
+  max-height: 125px;
+  margin-top: 3vh;
+}
 
 #menu-check,
 .menu-open,
@@ -5,8 +18,26 @@
   display: none;
 }
 
-@media (max-width: 720px) {
+.header-menu {
+  /* display:flex; */
+  color: wheat;
+}
 
+.header-icons i {
+  font-size: var(--h3);
+}
+
+.header-menu a {
+  font-size: var(--h5);
+  margin: 0 0.5vw;
+  font-weight: 600;
+}
+.menu-list {
+  list-style: none;
+  display: flex;
+}
+
+@media (max-width: 720px) {
   .menu-list {
     flex-direction: column;
     position: fixed;
