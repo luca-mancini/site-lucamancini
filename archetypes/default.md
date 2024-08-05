@@ -5,4 +5,5 @@ draft = true
 description = ''
 images = ['hypnosis/featured_hypnosis.jpg']
 keywords = ['']
+slug = ''
 +++

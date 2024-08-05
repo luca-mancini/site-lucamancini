@@ -8,7 +8,7 @@ slug = 'hire-me'
 +++
 
 #### I’m available for collaborations and session work.
-#### Feel free to **[contact me](https://www.lucamancini.com/contacts/)** if you need music or a website! 🙃
+#### Feel free to **[contact me](/contacts/)** if you need music or a website! 🙃
 
 ---
 

@@ -1,0 +1,53 @@
+.projects-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*  justify-items: center; */
+  align-self: center;
+  row-gap: 5vh;
+  row-gap: 5svh;
+  column-gap: 5vh;
+  column-gap: 5svh;
+}
+
+.projects-section a {
+  font-size: var(--h3);
+  width: 30vw;
+  width: 30svw;
+  height: 35vh;
+  height: 35svh;
+  line-height: 35vh;
+  text-align: center;
+  border-radius: 5px;
+  /*   filter: drop-shadow(2px 2px 8px white); */
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 2px 18px 0px rgba(255, 255, 255, 0.5);
+  border-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 1 fill;
+  /* backdrop-filter: brightness(0.4); */
+  /* background-color: rgba(0,0,0,0.5); */
+}
+
+.projects-section a:hover {
+  border-image: none;
+  color: transparent;
+  transform: scale(1.1);
+}
+
+.projects-card-music {
+  background-image: url(/projects/image_projects_music.jpg);
+  background-size: cover;
+}
+
+.projects-card-websites {
+  background-image: url(/projects/image_projects_websites.jpg);
+  background-size: cover;
+}
+
+.projects-card-new-disorder {
+  background-image: url(/projects/image_projects_new_disorder.jpg);
+  background-size: cover;
+}
+
+.projects-card-deep-stare {
+  background-image: url(/projects/image_projects_deep_stare.jpg);
+  background-size: cover;
+}
