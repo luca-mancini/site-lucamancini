@@ -1,0 +1,28 @@
+.contacts-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.contacts-section * {
+  font-size: var(--h4);
+}
+
+.contacts-section h4 {
+  margin-right: 5vh;
+  margin-right: 5svh;
+  justify-self: right;
+}
+
+.contacts-section i {
+  min-width: 40px;
+  font-size: var(--h3);
+  text-align: center;
+  margin-right: 1.5vh;
+  margin-right: 1.5svh;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+}
