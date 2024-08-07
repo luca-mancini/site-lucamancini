@@ -1,0 +1,49 @@
+.websites-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  gap: 5vh;
+  gap: 5svh;
+}
+
+.websites-section a {
+  font-size: var(--h3);
+  width: 30vw;
+  width: 30svw;
+  height: 35vh;
+  height: 35svh;
+  line-height: 35vh;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 2px 18px 0px rgba(255, 255, 255, 0.5);
+  border-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 1 fill;
+}
+
+.websites-section a:hover {
+  border-image: none;
+  color: transparent;
+  transform: scale(1.1);
+}
+
+[class^="websites-card-"] {
+  background-size: cover;
+  background-position: center;
+}
+
+.websites-card-simuan {
+  background-image: url(/websites/image_websites_simuan.jpg);
+}
+
+.websites-card-new-disorder {
+  background-image: url(/websites/image_websites_new_disorder.jpg);
+}
+
+.websites-card-deep-stare {
+  background-image: url(/websites/image_websites_deep_stare.jpg);
+}
+
+.websites-text {
+  align-self: end;
+  justify-self: end;
+}

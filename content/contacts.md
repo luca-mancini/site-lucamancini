@@ -11,19 +11,19 @@ slug = 'contacts'
 
 {{< row >}}
 {{< link
-class="contact-link"
+class="contacts-link"
 href="mailto:contact@lucamancini.com"
 >}}
 <i class="fa-regular fa-envelope"></i>contact@lucamancini.com
 {{< /link >}}
 {{< link
-class="contact-link"
+class="contacts-link"
 href="https://t.me/luca_mancini_drummer"
 >}}
 <i class="fa-brands fa-telegram"></i>@luca_mancini_drummer
 {{< /link >}}
 {{< link
-class="contact-link"
+class="contacts-link"
 href="https://social.vivaldi.net/@LucaManciniDrummer"
 target="_blank"
 rel="noopener noreferrer"

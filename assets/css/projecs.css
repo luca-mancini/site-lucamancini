@@ -1,7 +1,6 @@
 .projects-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /*  justify-items: center; */
   align-self: center;
   row-gap: 5vh;
   row-gap: 5svh;
@@ -32,22 +31,23 @@
   transform: scale(1.1);
 }
 
+[class^="projects-card-"] {
+  background-size: cover;
+  background-position: center;
+}
+
 .projects-card-music {
   background-image: url(/projects/image_projects_music.jpg);
-  background-size: cover;
 }
 
 .projects-card-websites {
   background-image: url(/projects/image_projects_websites.jpg);
-  background-size: cover;
 }
 
 .projects-card-new-disorder {
   background-image: url(/projects/image_projects_new_disorder.jpg);
-  background-size: cover;
 }
 
 .projects-card-deep-stare {
   background-image: url(/projects/image_projects_deep_stare.jpg);
-  background-size: cover;
 }
